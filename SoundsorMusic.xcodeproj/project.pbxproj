@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85521FD7241839A8004BBBED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FD6241839A8004BBBED /* AppDelegate.swift */; };
+		85521FD9241839A8004BBBED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FD8241839A8004BBBED /* SceneDelegate.swift */; };
+		85521FDB241839A8004BBBED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FDA241839A8004BBBED /* ViewController.swift */; };
+		85521FDE241839A8004BBBED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85521FDC241839A8004BBBED /* Main.storyboard */; };
+		85521FE1241839A8004BBBED /* SoundsorMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85521FDF241839A8004BBBED /* SoundsorMusic.xcdatamodeld */; };
+		85521FE3241839AE004BBBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85521FE2241839AE004BBBED /* Assets.xcassets */; };
+		85521FE6241839AE004BBBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85521FE4241839AE004BBBED /* LaunchScreen.storyboard */; };
+		85521FF1241839AF004BBBED /* SoundsorMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FF0241839AF004BBBED /* SoundsorMusicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85521FED241839AE004BBBED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85521FCB241839A8004BBBED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85521FD2241839A8004BBBED;
+			remoteInfo = SoundsorMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85521FD3241839A8004BBBED /* SoundsorMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundsorMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85521FD6241839A8004BBBED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85521FD8241839A8004BBBED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85521FDA241839A8004BBBED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85521FDD241839A8004BBBED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85521FE0241839A8004BBBED /* SoundsorMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundsorMusic.xcdatamodel; sourceTree = "<group>"; };
+		85521FE2241839AE004BBBED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85521FE5241839AE004BBBED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85521FE7241839AE004BBBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85521FEC241839AE004BBBED /* SoundsorMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundsorMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85521FF0241839AF004BBBED /* SoundsorMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsorMusicTests.swift; sourceTree = "<group>"; };
+		85521FF2241839AF004BBBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85521FD0241839A8004BBBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85521FE9241839AE004BBBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85521FCA241839A8004BBBED = {
+			isa = PBXGroup;
+			children = (
+				85521FD5241839A8004BBBED /* SoundsorMusic */,
+				85521FEF241839AF004BBBED /* SoundsorMusicTests */,
+				85521FD4241839A8004BBBED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85521FD4241839A8004BBBED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85521FD3241839A8004BBBED /* SoundsorMusic.app */,
+				85521FEC241839AE004BBBED /* SoundsorMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85521FD5241839A8004BBBED /* SoundsorMusic */ = {
+			isa = PBXGroup;
+			children = (
+				85521FD6241839A8004BBBED /* AppDelegate.swift */,
+				85521FD8241839A8004BBBED /* SceneDelegate.swift */,
+				85521FDA241839A8004BBBED /* ViewController.swift */,
+				85521FDC241839A8004BBBED /* Main.storyboard */,
+				85521FE2241839AE004BBBED /* Assets.xcassets */,
+				85521FE4241839AE004BBBED /* LaunchScreen.storyboard */,
+				85521FE7241839AE004BBBED /* Info.plist */,
+				85521FDF241839A8004BBBED /* SoundsorMusic.xcdatamodeld */,
+			);
+			path = SoundsorMusic;
+			sourceTree = "<group>";
+		};
+		85521FEF241839AF004BBBED /* SoundsorMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				85521FF0241839AF004BBBED /* SoundsorMusicTests.swift */,
+				85521FF2241839AF004BBBED /* Info.plist */,
+			);
+			path = SoundsorMusicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85521FD2241839A8004BBBED /* SoundsorMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85521FF5241839AF004BBBED /* Build configuration list for PBXNativeTarget "SoundsorMusic" */;
+			buildPhases = (
+				85521FCF241839A8004BBBED /* Sources */,
+				85521FD0241839A8004BBBED /* Frameworks */,
+				85521FD1241839A8004BBBED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundsorMusic;
+			productName = SoundsorMusic;
+			productReference = 85521FD3241839A8004BBBED /* SoundsorMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85521FEB241839AE004BBBED /* SoundsorMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85521FF8241839AF004BBBED /* Build configuration list for PBXNativeTarget "SoundsorMusicTests" */;
+			buildPhases = (
+				85521FE8241839AE004BBBED /* Sources */,
+				85521FE9241839AE004BBBED /* Frameworks */,
+				85521FEA241839AE004BBBED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85521FEE241839AE004BBBED /* PBXTargetDependency */,
+			);
+			name = SoundsorMusicTests;
+			productName = SoundsorMusicTests;
+			productReference = 85521FEC241839AE004BBBED /* SoundsorMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85521FCB241839A8004BBBED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = EricM;
+				TargetAttributes = {
+					85521FD2241839A8004BBBED = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					85521FEB241839AE004BBBED = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 85521FD2241839A8004BBBED;
+					};
+				};
+			};
+			buildConfigurationList = 85521FCE241839A8004BBBED /* Build configuration list for PBXProject "SoundsorMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85521FCA241839A8004BBBED;
+			productRefGroup = 85521FD4241839A8004BBBED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85521FD2241839A8004BBBED /* SoundsorMusic */,
+				85521FEB241839AE004BBBED /* SoundsorMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85521FD1241839A8004BBBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85521FE6241839AE004BBBED /* LaunchScreen.storyboard in Resources */,
+				85521FE3241839AE004BBBED /* Assets.xcassets in Resources */,
+				85521FDE241839A8004BBBED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85521FEA241839AE004BBBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85521FCF241839A8004BBBED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85521FE1241839A8004BBBED /* SoundsorMusic.xcdatamodeld in Sources */,
+				85521FDB241839A8004BBBED /* ViewController.swift in Sources */,
+				85521FD7241839A8004BBBED /* AppDelegate.swift in Sources */,
+				85521FD9241839A8004BBBED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85521FE8241839AE004BBBED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85521FF1241839AF004BBBED /* SoundsorMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85521FEE241839AE004BBBED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85521FD2241839A8004BBBED /* SoundsorMusic */;
+			targetProxy = 85521FED241839AE004BBBED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85521FDC241839A8004BBBED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85521FDD241839A8004BBBED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85521FE4241839AE004BBBED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85521FE5241839AE004BBBED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85521FF3241839AF004BBBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85521FF4241839AF004BBBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85521FF6241839AF004BBBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundsorMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SoundsorMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85521FF7241839AF004BBBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundsorMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SoundsorMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85521FF9241839AF004BBBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundsorMusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SoundsorMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundsorMusic.app/SoundsorMusic";
+			};
+			name = Debug;
+		};
+		85521FFA241839AF004BBBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoundsorMusicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SoundsorMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundsorMusic.app/SoundsorMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85521FCE241839A8004BBBED /* Build configuration list for PBXProject "SoundsorMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85521FF3241839AF004BBBED /* Debug */,
+				85521FF4241839AF004BBBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85521FF5241839AF004BBBED /* Build configuration list for PBXNativeTarget "SoundsorMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85521FF6241839AF004BBBED /* Debug */,
+				85521FF7241839AF004BBBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85521FF8241839AF004BBBED /* Build configuration list for PBXNativeTarget "SoundsorMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85521FF9241839AF004BBBED /* Debug */,
+				85521FFA241839AF004BBBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85521FDF241839A8004BBBED /* SoundsorMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85521FE0241839A8004BBBED /* SoundsorMusic.xcdatamodel */,
+			);
+			currentVersion = 85521FE0241839A8004BBBED /* SoundsorMusic.xcdatamodel */;
+			path = SoundsorMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85521FCB241839A8004BBBED /* Project object */;
+}
