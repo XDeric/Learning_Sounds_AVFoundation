@@ -36,6 +36,18 @@ class ViewController: UIViewController {
         return button
     }()
     
+    lazy var pause: UIButton = {
+        let button = UIButton()
+        button.sizeToFit()
+        button.setTitleColor(#colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1), for: .normal)
+        button.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        button.layer.cornerRadius = 5
+        button.setTitle("Pause", for: .normal)
+        button.addTarget(self, action: #selector (pauseIt), for: .touchUpInside)
+        
+        return button
+    }()
+    
     @objc func play(){
        // Fetch the Sound data set.
 //       if let bundle = Bundle.main.path(forResource: "ff7BattleTheme", ofType: "mp3") {
@@ -52,6 +64,14 @@ class ViewController: UIViewController {
            }
     }
     
+    @objc func pauseIt(){
+        if audioPlayer!.isPlaying{
+            audioPlayer?.pause()
+        }
+        else {
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
@@ -62,8 +82,10 @@ class ViewController: UIViewController {
     func setupConstrints(){
         instructions.translatesAutoresizingMaskIntoConstraints = false
         button.translatesAutoresizingMaskIntoConstraints = false
+        pause.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(instructions)
         view.addSubview(button)
+        view.addSubview(pause)
         
         NSLayoutConstraint.activate([
         
@@ -72,7 +94,10 @@ class ViewController: UIViewController {
 
             
             button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            button.topAnchor.constraint(equalTo: instructions.bottomAnchor, constant: 20),
+            button.topAnchor.constraint(equalTo: instructions.bottomAnchor, constant: 30),
+            
+            pause.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            pause.topAnchor.constraint(equalTo: button.bottomAnchor, constant: 30)
         ])
     }
 
