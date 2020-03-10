@@ -15,6 +15,7 @@
 		85521FE3241839AE004BBBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85521FE2241839AE004BBBED /* Assets.xcassets */; };
 		85521FE6241839AE004BBBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85521FE4241839AE004BBBED /* LaunchScreen.storyboard */; };
 		85521FF1241839AF004BBBED /* SoundsorMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FF0241839AF004BBBED /* SoundsorMusicTests.swift */; };
+		8552200024184A9E004BBBED /* ff7BattleTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85521FFF24184A9E004BBBED /* ff7BattleTheme.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		85521FEC241839AE004BBBED /* SoundsorMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundsorMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85521FF0241839AF004BBBED /* SoundsorMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsorMusicTests.swift; sourceTree = "<group>"; };
 		85521FF2241839AF004BBBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85521FFF24184A9E004BBBED /* ff7BattleTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ff7BattleTheme.mp3; path = ../../../../Downloads/ff7BattleTheme.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				85521FD8241839A8004BBBED /* SceneDelegate.swift */,
 				85521FDA241839A8004BBBED /* ViewController.swift */,
 				85521FDC241839A8004BBBED /* Main.storyboard */,
+				85521FFD24184502004BBBED /* Music */,
 				85521FE2241839AE004BBBED /* Assets.xcassets */,
 				85521FE4241839AE004BBBED /* LaunchScreen.storyboard */,
 				85521FE7241839AE004BBBED /* Info.plist */,
@@ -100,6 +103,14 @@
 				85521FF2241839AF004BBBED /* Info.plist */,
 			);
 			path = SoundsorMusicTests;
+			sourceTree = "<group>";
+		};
+		85521FFD24184502004BBBED /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				85521FFF24184A9E004BBBED /* ff7BattleTheme.mp3 */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 			files = (
 				85521FE6241839AE004BBBED /* LaunchScreen.storyboard in Resources */,
 				85521FE3241839AE004BBBED /* Assets.xcassets in Resources */,
+				8552200024184A9E004BBBED /* ff7BattleTheme.mp3 in Resources */,
 				85521FDE241839A8004BBBED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26RHXP32FH;
 				INFOPLIST_FILE = SoundsorMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -384,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26RHXP32FH;
 				INFOPLIST_FILE = SoundsorMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

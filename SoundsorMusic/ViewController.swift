@@ -11,26 +11,46 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+     var audioPlayer: AVAudioPlayer?
+    
     lazy var instructions: UILabel = {
         let text = UILabel()
-        text.text = "play music"
-        text.numberOfLines = 3
+        text.text = "Play Music"
+        text.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         text.textColor = #colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1)
-        text.alpha = 0
+        text.numberOfLines = 0
+        text.sizeToFit()
+        text.layer.cornerRadius = 5
         return text
     }()
     
     lazy var button: UIButton = {
         let button = UIButton()
-        button.isHidden = true
-        button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = #colorLiteral(red: 0, green: 0.5898008943, blue: 1, alpha: 1)
+        button.sizeToFit()
+        button.setTitleColor(#colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1), for: .normal)
+        button.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         button.layer.cornerRadius = 5
         button.setTitle("Play", for: .normal)
-//        button.addTarget(self, action: #selector (nextVC), for: .touchUpInside)
+        button.addTarget(self, action: #selector (play), for: .touchUpInside)
         
         return button
     }()
+    
+    @objc func play(){
+       // Fetch the Sound data set.
+//       if let bundle = Bundle.main.path(forResource: "ff7BattleTheme", ofType: "mp3") {
+//        let backgroundMusic = URL.init(fileURLWithPath: bundle)
+        let music = NSURL(fileURLWithPath: Bundle.main.path(forResource: "ff7BattleTheme", ofType: "mp3")!)
+           do {
+               audioPlayer = try! AVAudioPlayer(contentsOf: music as URL)
+               guard let audioPlayer = audioPlayer else { return }
+               audioPlayer.prepareToPlay()
+               audioPlayer.numberOfLoops = -1
+               audioPlayer.play()
+           } catch {
+               print(error)
+           }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,9 +69,10 @@ class ViewController: UIViewController {
         
             instructions.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             instructions.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+
             
-            button.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            button.topAnchor.constraint(equalTo: instructions.bottomAnchor)
+            button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            button.topAnchor.constraint(equalTo: instructions.bottomAnchor, constant: 20),
         ])
     }
 
