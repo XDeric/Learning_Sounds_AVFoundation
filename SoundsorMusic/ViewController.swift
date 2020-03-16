@@ -48,11 +48,13 @@ class ViewController: UIViewController {
         return button
     }()
     
+    var songList = ["ff7BattleTheme","",]
+    
     @objc func play(){
        // Fetch the Sound data set.
 //       if let bundle = Bundle.main.path(forResource: "ff7BattleTheme", ofType: "mp3") {
 //        let backgroundMusic = URL.init(fileURLWithPath: bundle)
-        let music = NSURL(fileURLWithPath: Bundle.main.path(forResource: "ff7BattleTheme", ofType: "mp3")!)
+        let music = NSURL(fileURLWithPath: Bundle.main.path(forResource: songList[0], ofType: "mp3")!)
            do {
                audioPlayer = try! AVAudioPlayer(contentsOf: music as URL)
                guard let audioPlayer = audioPlayer else { return }
