@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		851F2EE2241FDED00012FA09 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F2EE1241FDED00012FA09 /* SoundManager.swift */; };
+		851F2EE4241FE4F00012FA09 /* NextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F2EE3241FE4F00012FA09 /* NextVC.swift */; };
+		851F2EE6241FE5F30012FA09 /* door_keys.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851F2EE5241FE5F30012FA09 /* door_keys.mp3 */; };
+		851F2EE8241FE7CD0012FA09 /* Jealous_Coronavirus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851F2EE7241FE7CD0012FA09 /* Jealous_Coronavirus.mp3 */; };
+		851F2EEA241FEB5B0012FA09 /* ff15Chocobo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851F2EE9241FEB5B0012FA09 /* ff15Chocobo.mp3 */; };
+		851F2EEC241FEC8D0012FA09 /* ff15Chocobo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851F2EEB241FEC8C0012FA09 /* ff15Chocobo.mp3 */; };
+		851F2EEE241FEE430012FA09 /* SephirothTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851F2EED241FEE430012FA09 /* SephirothTheme.mp3 */; };
+		851F2EF0241FF63C0012FA09 /* LeapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F2EEF241FF63C0012FA09 /* LeapVC.swift */; };
+		851F2EF2241FF6470012FA09 /* anotherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F2EF1241FF6470012FA09 /* anotherVC.swift */; };
 		85521FD7241839A8004BBBED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FD6241839A8004BBBED /* AppDelegate.swift */; };
 		85521FD9241839A8004BBBED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FD8241839A8004BBBED /* SceneDelegate.swift */; };
 		85521FDB241839A8004BBBED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FDA241839A8004BBBED /* ViewController.swift */; };
@@ -31,6 +39,14 @@
 
 /* Begin PBXFileReference section */
 		851F2EE1241FDED00012FA09 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		851F2EE3241FE4F00012FA09 /* NextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextVC.swift; sourceTree = "<group>"; };
+		851F2EE5241FE5F30012FA09 /* door_keys.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = door_keys.mp3; path = ../../../../Downloads/door_keys.mp3; sourceTree = "<group>"; };
+		851F2EE7241FE7CD0012FA09 /* Jealous_Coronavirus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Jealous_Coronavirus.mp3; path = ../../../../Downloads/Jealous_Coronavirus.mp3; sourceTree = "<group>"; };
+		851F2EE9241FEB5B0012FA09 /* ff15Chocobo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ff15Chocobo.mp3; path = ../../../../Downloads/ff15Chocobo.mp3; sourceTree = "<group>"; };
+		851F2EEB241FEC8C0012FA09 /* ff15Chocobo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ff15Chocobo.mp3; path = ../../../../Downloads/ff15Chocobo.mp3; sourceTree = "<group>"; };
+		851F2EED241FEE430012FA09 /* SephirothTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SephirothTheme.mp3; path = ../../../../Downloads/SephirothTheme.mp3; sourceTree = "<group>"; };
+		851F2EEF241FF63C0012FA09 /* LeapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapVC.swift; sourceTree = "<group>"; };
+		851F2EF1241FF6470012FA09 /* anotherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anotherVC.swift; sourceTree = "<group>"; };
 		85521FD3241839A8004BBBED /* SoundsorMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundsorMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85521FD6241839A8004BBBED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85521FD8241839A8004BBBED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +105,9 @@
 				85521FD8241839A8004BBBED /* SceneDelegate.swift */,
 				851F2EE1241FDED00012FA09 /* SoundManager.swift */,
 				85521FDA241839A8004BBBED /* ViewController.swift */,
+				851F2EE3241FE4F00012FA09 /* NextVC.swift */,
+				851F2EEF241FF63C0012FA09 /* LeapVC.swift */,
+				851F2EF1241FF6470012FA09 /* anotherVC.swift */,
 				85521FDC241839A8004BBBED /* Main.storyboard */,
 				85521FFD24184502004BBBED /* Music */,
 				85521FE2241839AE004BBBED /* Assets.xcassets */,
@@ -112,6 +131,11 @@
 			isa = PBXGroup;
 			children = (
 				85521FFF24184A9E004BBBED /* ff7BattleTheme.mp3 */,
+				851F2EE5241FE5F30012FA09 /* door_keys.mp3 */,
+				851F2EE7241FE7CD0012FA09 /* Jealous_Coronavirus.mp3 */,
+				851F2EEB241FEC8C0012FA09 /* ff15Chocobo.mp3 */,
+				851F2EED241FEE430012FA09 /* SephirothTheme.mp3 */,
+				851F2EE9241FEB5B0012FA09 /* ff15Chocobo.mp3 */,
 			);
 			name = Music;
 			sourceTree = "<group>";
@@ -197,9 +221,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851F2EE8241FE7CD0012FA09 /* Jealous_Coronavirus.mp3 in Resources */,
 				85521FE6241839AE004BBBED /* LaunchScreen.storyboard in Resources */,
+				851F2EEA241FEB5B0012FA09 /* ff15Chocobo.mp3 in Resources */,
 				85521FE3241839AE004BBBED /* Assets.xcassets in Resources */,
+				851F2EEC241FEC8D0012FA09 /* ff15Chocobo.mp3 in Resources */,
 				8552200024184A9E004BBBED /* ff7BattleTheme.mp3 in Resources */,
+				851F2EE6241FE5F30012FA09 /* door_keys.mp3 in Resources */,
+				851F2EEE241FEE430012FA09 /* SephirothTheme.mp3 in Resources */,
 				85521FDE241839A8004BBBED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,11 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851F2EF0241FF63C0012FA09 /* LeapVC.swift in Sources */,
 				85521FE1241839A8004BBBED /* SoundsorMusic.xcdatamodeld in Sources */,
 				85521FDB241839A8004BBBED /* ViewController.swift in Sources */,
 				85521FD7241839A8004BBBED /* AppDelegate.swift in Sources */,
+				851F2EF2241FF6470012FA09 /* anotherVC.swift in Sources */,
 				85521FD9241839A8004BBBED /* SceneDelegate.swift in Sources */,
 				851F2EE2241FDED00012FA09 /* SoundManager.swift in Sources */,
+				851F2EE4241FE4F00012FA09 /* NextVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
