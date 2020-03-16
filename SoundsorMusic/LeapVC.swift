@@ -16,20 +16,22 @@ class LeapVC: UIViewController {
         button.setTitleColor(#colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1), for: .normal)
         button.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         button.layer.cornerRadius = 5
-        button.setTitle("Play", for: .normal)
+        button.setTitle("Next", for: .normal)
         button.addTarget(self, action: #selector (goToNextVC), for: .touchUpInside)
         
         return button
     }()
     
     @objc func goToNextVC(){
-        
+        let vc = anotherVC()
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true, completion: nil)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupConstraints()
-        SoundManager.shared.chooseSound(sound: "sephiroth")
+        SoundManager.shared.chooseSound(sound: "ff7")
 
         // Do any additional setup after loading the view.
     }
