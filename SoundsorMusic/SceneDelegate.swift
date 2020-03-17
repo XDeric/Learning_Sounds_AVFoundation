@@ -21,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.windowScene = windowScene
         window?.rootViewController = NextVC()
+        SoundManager.shared.chooseSound(sound: "sephiroth")
         window?.makeKeyAndVisible()
     }
 

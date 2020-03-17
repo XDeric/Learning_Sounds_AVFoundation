@@ -16,7 +16,7 @@ class LeapVC: UIViewController {
         button.setTitleColor(#colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1), for: .normal)
         button.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         button.layer.cornerRadius = 5
-        button.setTitle("Next", for: .normal)
+        button.setTitle("Next1", for: .normal)
         button.addTarget(self, action: #selector (goToNextVC), for: .touchUpInside)
         
         return button
@@ -30,8 +30,9 @@ class LeapVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         setupConstraints()
-        SoundManager.shared.chooseSound(sound: "ff7")
+        //SoundManager.shared.chooseSound(sound: "ff7")
 
         // Do any additional setup after loading the view.
     }
