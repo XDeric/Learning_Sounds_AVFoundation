@@ -16,6 +16,7 @@
 		851F2EEE241FEE430012FA09 /* SephirothTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 851F2EED241FEE430012FA09 /* SephirothTheme.mp3 */; };
 		851F2EF0241FF63C0012FA09 /* LeapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F2EEF241FF63C0012FA09 /* LeapVC.swift */; };
 		851F2EF2241FF6470012FA09 /* anotherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F2EF1241FF6470012FA09 /* anotherVC.swift */; };
+		851F2EFD242548A40012FA09 /* PassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F2EFC242548A40012FA09 /* PassData.swift */; };
 		85521FD7241839A8004BBBED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FD6241839A8004BBBED /* AppDelegate.swift */; };
 		85521FD9241839A8004BBBED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FD8241839A8004BBBED /* SceneDelegate.swift */; };
 		85521FDB241839A8004BBBED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85521FDA241839A8004BBBED /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 		851F2EED241FEE430012FA09 /* SephirothTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SephirothTheme.mp3; path = ../../../../Downloads/SephirothTheme.mp3; sourceTree = "<group>"; };
 		851F2EEF241FF63C0012FA09 /* LeapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapVC.swift; sourceTree = "<group>"; };
 		851F2EF1241FF6470012FA09 /* anotherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anotherVC.swift; sourceTree = "<group>"; };
+		851F2EFC242548A40012FA09 /* PassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassData.swift; sourceTree = "<group>"; };
 		85521FD3241839A8004BBBED /* SoundsorMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundsorMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85521FD6241839A8004BBBED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85521FD8241839A8004BBBED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				85521FDA241839A8004BBBED /* ViewController.swift */,
 				851F2EE3241FE4F00012FA09 /* NextVC.swift */,
 				851F2EEF241FF63C0012FA09 /* LeapVC.swift */,
+				851F2EFC242548A40012FA09 /* PassData.swift */,
 				851F2EF1241FF6470012FA09 /* anotherVC.swift */,
 				85521FDC241839A8004BBBED /* Main.storyboard */,
 				85521FFD24184502004BBBED /* Music */,
@@ -250,6 +253,7 @@
 				851F2EF0241FF63C0012FA09 /* LeapVC.swift in Sources */,
 				85521FE1241839A8004BBBED /* SoundsorMusic.xcdatamodeld in Sources */,
 				85521FDB241839A8004BBBED /* ViewController.swift in Sources */,
+				851F2EFD242548A40012FA09 /* PassData.swift in Sources */,
 				85521FD7241839A8004BBBED /* AppDelegate.swift in Sources */,
 				851F2EF2241FF6470012FA09 /* anotherVC.swift in Sources */,
 				85521FD9241839A8004BBBED /* SceneDelegate.swift in Sources */,

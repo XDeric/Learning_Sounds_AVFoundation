@@ -22,6 +22,18 @@ class LeapVC: UIViewController {
         return button
     }()
     
+    lazy var pauseB: UIButton = {
+        let button = UIButton()
+        button.sizeToFit()
+        button.setTitleColor(#colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1), for: .normal)
+        button.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        button.layer.cornerRadius = 5
+        button.setTitle("pause", for: .normal)
+        button.addTarget(self, action: #selector (SoundManager.shared.pause), for: .touchUpInside)
+        
+        return button
+    }()
+    
     @objc func goToNextVC(){
         let vc = anotherVC()
         vc.modalPresentationStyle = .fullScreen
@@ -32,18 +44,25 @@ class LeapVC: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         setupConstraints()
-        //SoundManager.shared.chooseSound(sound: "ff7")
+        SoundManager.shared.chooseSound(sound: "ff7")
 
         // Do any additional setup after loading the view.
     }
     
     func setupConstraints(){
         button.translatesAutoresizingMaskIntoConstraints = false
+        pauseB.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(button)
+        view.addSubview(pauseB)
         NSLayoutConstraint.activate([
         
             button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            button.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            button.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            
+            pauseB.topAnchor.constraint(equalTo: button.bottomAnchor),
+            pauseB.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            pauseB.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.25),
+            pauseB.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.1)
             
         ])
     }

@@ -12,6 +12,7 @@ import AVFoundation
 class SoundManager{
     
     static let shared = SoundManager()
+    let notification = Notification(name: .didUpdateAudioPlayer)
     
     var audioPlayer: AVAudioPlayer?
     
@@ -31,6 +32,15 @@ class SoundManager{
         } catch {
             print(error)
         }
+    }
+    
+    @objc func postAudioplayer(){
+        let name = Notification.Name("didUpdateAudioPlayer")
+        NotificationCenter.default.post(name: name, object: nil)
+    }
+    
+    func audioPlayerObserver(){
+        NotificationCenter.default.addObserver(self, selector: #selector(pause), name: .didUpdateAudioPlayer, object: nil)
     }
     
     func playOnce(sound:String){
@@ -54,7 +64,13 @@ class SoundManager{
         }
     }
     
-    func playInAllVC(){
-        
+    @objc func pause(){
+        if audioPlayer!.isPlaying{
+            audioPlayer?.pause()
+        }
+        else {
+            audioPlayer?.prepareToPlay()
+            audioPlayer?.play()
+        }
     }
 }
